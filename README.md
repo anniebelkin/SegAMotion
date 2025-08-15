@@ -8,12 +8,12 @@ SegAMotion is a fast, modular pipeline for video object segmentation and trackin
 
 <table>
   <tr>
-    <td><img src="gifs/rollerblade_compare.gif"  loop></td>
-    <td><img src="gifs/parkour_compare.gif"  loop></td>
+    <td><img src="gifs/rollerblade_compare.gif" loop=infinite></td>
+    <td><img src="gifs/parkour_compare.gif" loop=infinite></td>
   </tr>
   <tr>
-    <td><img src="gifs/drift-straight_compare.gif"  loop></td>
-    <td><img src="gifs/longboard_compare.gif"  loop></td>
+    <td><img src="gifs/drift-straight_compare.gif" loop=infinite></td>
+    <td><img src="gifs/longboard_compare.gif" loop=infinite></td>
   </tr>
 </table>
 
@@ -90,8 +90,6 @@ Outputs (videos, logs, visualizations) are saved in the `output/` directory, org
 
 ## Project Overview
 
-<img src="gifs/cat-girl_compare.gif"  loop>
-
 SegAMotion is designed for robust video object segmentation and tracking in real-world scenarios: moving cameras, crowded scenes, occlusions, and complex interactions. It combines YOLO-based deep learning for detection/segmentation with classical computer vision (feature tracking, optical flow, homography, clustering, Kalman filtering) for global motion modeling and adaptive tracking.
 
 **Core Features:**
@@ -122,16 +120,16 @@ The pipeline was evaluated on videos with different types of camera motion and o
 
 <table>
   <tr>
-    <td><img src="gifs/bike-packing_full_compare.gif"  loop></td>
-    <td><img src="gifs/boxing-fisheye_full_compare.gif"  loop></td>
+    <td><img src="gifs/bike-packing_full_compare.gif" loop=infinite></td>
+    <td><img src="gifs/boxing-fisheye_full_compare.gif" loop=infinite></td>
   </tr>
   <tr>
-    <td><img src="gifs/car-roundabout_full_compare.gif"  loop></td>
-  <td><img src="gifs/static_background_full_compare.gif"  loop></td>
+    <td><img src="gifs/car-roundabout_full_compare.gif" loop=infinite></td>
+  <td><img src="gifs/static_background_full_compare.gif" loop=infinite></td>
   </tr>
   <tr>
-  <td><img src="gifs/horsejump-high_full_compare.gif"  loop></td>
-  <td><img src="gifs/judo_full_compare.gif" loop></td>
+  <td><img src="gifs/horsejump-high_full_compare.gif" loop=infinite></td>
+  <td><img src="gifs/judo_full_compare.gif" loop=infinite></td>
   </tr>
 </table>
 
@@ -330,6 +328,8 @@ The pipeline was evaluated on videos with different types of camera motion and o
 - **background_mask_style**: Style of the background in segmentation output. Options:
   - `black`: Masked background is set to black (default).
   - `blur`: Masked background is blurred.
+ 
+<img src="gifs/cat-girl_compare.gif" loop=infinite>
 
 ---
 
