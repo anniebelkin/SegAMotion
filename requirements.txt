@@ -1,0 +1,8 @@
+opencv-python
+numpy
+tqdm
+scipy
+filterpy
+ultralytics
+torch
+scikit-learn

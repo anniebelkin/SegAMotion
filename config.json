@@ -1,0 +1,46 @@
+  
+{
+  "instance_model_path": "data/yolo/yolov8n.pt",
+  "yolo_conf_threshold": 0.5,
+  "max_history": 5,
+  "max_prediction_distance": 100,
+  "max_prediction_frames": 10,
+  "grid_size": 50,
+
+  "max_points": 500,
+  "quality_level": 0.01,
+  "min_distance": 10,
+  "history_frames": 5,
+  "blockSize": 7,
+  "useHarrisDetector": false,
+  "k": 0.04,
+  "mask_expansion": 10,
+
+  "ransac_reproj_threshold": 3.0,
+  "motion_threshold": 2.0,
+  "max_corners": 1000,
+  "lk_winSize": [21, 21],
+  "lk_maxLevel": 3,
+  "lk_criteria_eps": 0.01,
+  "lk_criteria_count": 30,
+
+  "min_points_per_detection": 10,
+  "iou_threshold": 0.3,
+  "max_objects": 10,
+  "min_motion_duration": 10,
+  "min_avg_points_per_frame": 10.0,
+  "track_history_length": 10,
+
+  "max_disappeared": 30,
+  "min_hits": 3,
+  "strong_iou_threshold": 0.3,
+  "max_tracks": 20,
+  "feature_threshold": 0.6,
+  
+  "instance_seg_model_path": "data/yolo/yolo11m-seg.pt",
+  "yolo_seg_conf_threshold": 0.5,
+  "yolo_iou_threshold": 0.7,
+
+  "use_telea_inpaint": true,
+  "background_mask_style": "black"
+}
