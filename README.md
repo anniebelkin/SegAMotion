@@ -131,21 +131,7 @@ The pipeline was evaluated on videos with different types of camera motion and o
   </tr>
 </table>
 
----
-
-## Limitations & Future Work
-
-**Current Limitations:**
-
-- The pipeline may slow down or lose accuracy in extremely crowded scenes, with many moving objects, or when large objects dominate the frame.
-- Mask and background quality can be affected by rapid motion, occlusions, or limited visible background.
-- Real-time and multi-camera support are not yet implemented.
-
-### Future Directions
-
-- Integrate advanced segmentation models and deep inpainting for better mask and background quality.
-- Develop smarter background modeling and tracking for crowded or dynamic scenes.
-- Optimize for real-time and multi-camera use cases.
+For more, you can download some saved results from [`HERE`]([https://github.com/ultralytics/assets/releases/download/v8.3.0/yolo11x-seg.pt](https://drive.google.com/file/d/154ihko5SqyqB4uqCkP6hRf9reFYgIMbB/view?usp=sharing))
 
 ---
 
