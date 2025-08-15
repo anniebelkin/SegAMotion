@@ -116,22 +116,23 @@ We compared SegAMotion's results to the outputs of Detectron2 and YOLO alone, fo
 
 The pipeline was evaluated on videos with different types of camera motion and object movement, showing robustness to dynamic backgrounds, occlusions, and challenging scenarios. These results highlight SegAMotion's effectiveness in distinguishing moving objects from static background, even under complex conditions.
 
+For more, you can download some saved results from [HERE](https://drive.google.com/file/d/154ihko5SqyqB4uqCkP6hRf9reFYgIMbB/view?usp=sharing)
+
 <table>
-  <tr>
-    <td><img src="gifs/bike-packing_full_compare.gif" loop=infinite></td>
-    <td><img src="gifs/boxing-fisheye_full_compare.gif" loop=infinite></td>
-  </tr>
   <tr>
     <td><img src="gifs/car-roundabout_full_compare.gif" loop=infinite></td>
   <td><img src="gifs/static_background_full_compare.gif" loop=infinite></td>
   </tr>
   <tr>
   <td><img src="gifs/horsejump-high_full_compare.gif" loop=infinite></td>
-  <td><img src="gifs/judo_full_compare.gif" loop=infinite></td>
+  <td><img src="gifs/bike-packing_full_compare.gif" loop=infinite></td>
+  </tr>
+  <tr>
+    <td><img src="gifs/judo_full_compare.gif" loop=infinite></td>
+    <td><img src="gifs/boxing-fisheye_full_compare.gif" loop=infinite></td>
   </tr>
 </table>
 
-For more, you can download some saved results from [`HERE`]([https://github.com/ultralytics/assets/releases/download/v8.3.0/yolo11x-seg.pt](https://drive.google.com/file/d/154ihko5SqyqB4uqCkP6hRf9reFYgIMbB/view?usp=sharing))
 
 ---
 
