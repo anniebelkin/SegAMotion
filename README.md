@@ -27,9 +27,9 @@ pip install -r requirements.txt
 
 Download YOLO models and place in `data/yolo/`:
 
-- [`yolo11m-seg.pt`](https://github.com/ultralytics/assets/releases/download/v8.3.0/yolo11m-seg.pt): medium, balanced
+- [`yolo11m-seg.pt`](https://github.com/ultralytics/assets/releases/download/v8.3.0/yolo11m-seg.pt): medium, balanced (default)
 - [`yolo11l-seg.pt`](https://github.com/ultralytics/assets/releases/download/v8.3.0/yolo11l-seg.pt): large, accurate
-- [`yolo11x-seg.pt`](https://github.com/ultralytics/assets/releases/download/v8.3.0/yolo11x-seg.pt): x-large, best (needs strong GPU)
+- [`yolo11x-seg.pt`](https://github.com/ultralytics/assets/releases/download/v8.3.0/yolo11x-seg.pt): x-large, best but slow
 
 ### Usage
 
