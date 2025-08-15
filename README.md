@@ -2,8 +2,6 @@
 
 SegAMotion is a fast, modular pipeline for video object segmentation and tracking. It combines deep learning (YOLO) and classical computer vision to separate moving objects from background, even in challenging videos with camera motion, crowds, or occlusions. The pipeline is easy to configure, produces clean outputs, and includes visualizations for instant feedback.
 
-SegAMotion is a fast, modular pipeline for video object segmentation and tracking. It combines deep learning (YOLO) and classical computer vision to separate moving objects from background, even in challenging videos with camera motion, crowds, or occlusions. The pipeline is easy to configure, produces clean outputs, and includes visualizations for instant feedback
-
 ---
 
 <table>
